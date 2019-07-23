@@ -1,2 +1,2 @@
-# MahirJhaveri.github.io
+# Interactive Resume
 Repository holding the website data
