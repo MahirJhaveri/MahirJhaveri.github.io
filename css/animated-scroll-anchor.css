@@ -1,0 +1,30 @@
+
+.ct-btn-scroll {
+  position: absolute;
+  bottom: 5%;
+  color: #fff;
+  font-size: 48px;
+  transition: all 0.3s ease-in-out;
+}
+.ct-btn-scroll:focus, .ct-btn-scroll:hover {
+  color: #f59331;
+}
+.ct-btn-scroll {
+  background: url('https://cdn2.iconfinder.com/data/icons/navigation-17/24/navigation-down-3-512.png') no-repeat;
+  height: 60px;
+  width: 60px;
+  background-size: 60px 60px;
+  max-width: 60px;
+  max-height: 60px;
+}
+#scrollDown {
+  padding: 100px 0;
+}
+#scrollDown p {
+  padding: 25px 0;
+}
+@media screen and (max-width: 768px) {
+  .image-hero .image-hero-content p {
+	display: none;
+  }
+}

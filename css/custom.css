@@ -10,12 +10,16 @@
   height: 100%;
 }
 .hero-background.is-transparent {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .navbar.is-transparent {
   opacity: 0.8;
 }
 
-.navbar-item.is-active {
-  color: green;
+.hero {
+  font-family: 'Special Elite';
+}
+
+.navbar {
+  font-family: 'Special Elite';
 }
