@@ -12,3 +12,10 @@
 .hero-background.is-transparent {
   opacity: 0.5;
 }
+.navbar.is-transparent {
+  opacity: 0.8;
+}
+
+.navbar-item.is-active {
+  color: green;
+}
