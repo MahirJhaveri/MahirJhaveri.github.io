@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .hero-background {
   position: absolute;
   object-fit: cover;
@@ -9,11 +10,24 @@
   width: 100%;
   height: 100%;
 }
+
+/* Page background opacity */
 .hero-background.is-transparent {
   opacity: 0.4;
 }
+
+/* Navbar opacity */
 .navbar.is-transparent {
-  opacity: 0.8;
+  background-color: rgba(255,241,212,0.1);
+}
+
+/* Navbar styles */
+.navbar-item.custom-style{
+  opacity: 1 !important;
+}
+
+.navbar-item.is-active.custom-style{
+  color: #FA7C91 !important;
 }
 
 .hero {
