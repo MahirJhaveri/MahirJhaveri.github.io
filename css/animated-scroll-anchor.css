@@ -1,13 +1,10 @@
 
 .ct-btn-scroll {
-  position: absolute;
-  bottom: 5%;
+  position: relative;
+  padding: 3%;
   color: #fff;
   font-size: 48px;
   transition: all 0.3s ease-in-out;
-}
-.ct-btn-scroll:focus, .ct-btn-scroll:hover {
-  color: #f59331;
 }
 .ct-btn-scroll {
   background: url('https://cdn2.iconfinder.com/data/icons/navigation-17/24/navigation-down-3-512.png') no-repeat;
